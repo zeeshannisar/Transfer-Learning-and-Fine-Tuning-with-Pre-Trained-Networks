@@ -1,4 +1,8 @@
 /datasets/lungs/
 /datasets/x-rays/
 /datasets/Belarus x-rays/
+/datasets/melanoma/
 saved models/VGG19 model/
+saved models/VGG16 model/
+saved models/Attention Based VGG16 model/
+saved models/ResNet50 model/
