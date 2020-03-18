@@ -21,10 +21,10 @@ In this case, you use the architecture of the pre-trained model and train it acc
 #### 2. Train some layers and leave the others frozen:
 As you remember, lower layers refer to general features (problem independent), while higher layers refer to specific features (problem dependent). Here, we play with that dichotomy by choosing how much we want to adjust the weights of the network (a frozen layer does not change during training). Usually, if you’ve a small dataset and a large number of parameters, you’ll leave more layers frozen to avoid overfitting. By contrast, if the dataset is large and the number of parameters is small, you can improve your model by training more layers to the new task since overfitting is not an issue.
 
-#### Freeze the convolutional base.
+#### 3. Freeze the convolutional base.
 This case corresponds to an extreme situation of the train/freeze trade-off. The main idea is to keep the convolutional base in its original form and then use its outputs to feed the classifier. You’re using the pre-trained model as a fixed feature extraction mechanism, which can be useful if you’re short on computational power, your dataset is small, and/or pre-trained model solves a problem very similar to the one you want to solve.
 
-#### Schematic Diagram of Transfer Learning Strategies: 
+####                                Schematic Diagram of Transfer Learning Strategies: 
 <p align="center">
     <img src="https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks/blob/master/ReadMe%20Images/trasnfer%20learning%20strategies.png">
     <br>
