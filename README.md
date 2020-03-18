@@ -6,10 +6,10 @@ This Repository contains the implementation of Transfer-Learning and Fine-Tuning
 ### Pretrained Networks:
 I have used the following pretrained networks for Transfer-Learning for Tuberculosis Classification and Skin Cancer Detection tasks.
 
-+ [Fine Tuning with VGG16](#grad-cam)    
-+ [Fine Tuning with VGG19](#cam)
-+ [Fine Tuning with AttentionBased-VGG16](#)
-+ [Fine Tuning with Res-Net50]
++ [Fine Tuning with VGG16](#fine-tuning-with-vgg16)    
++ [Fine Tuning with VGG19](#fine-tuning-with-vgg19)
++ [Fine Tuning with AttentionBased-VGG16](#fine-tuning-with-attentionbased-vgg16)
++ [Fine Tuning with Res-Net50](#fine-tuning-with-resnet-50)
 
 ### Datasets:
 The original datasets are publicaly available at [Tuberculosis Dataset](https://lhncbc.nlm.nih.gov/publication/pub9931) and [Skin Cancer Datset](https://www.kaggle.com/drscarlat/melanoma) and can be also be requested at zshnnisar@gmail.com to get the same accuracy results. 
@@ -18,10 +18,10 @@ The original datasets are publicaly available at [Tuberculosis Dataset](https://
 ## Implementations:
 
 ### Fine Tuning with VGG16:
-[Code: Google Colab Notebook](https://github.com/zeeshannisar/Visual-Explaination-from-Deep-Neural-Networks/blob/master/Grad-CAM%20Approach/Grad-CAM-implementation.ipynb)
+[Code: Google Colab Notebook](https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks/blob/master/Fine%20Tuning%20with%20VGG16/Fine%20tuning%20with%20Pretrained%20VGG16%20for%20Tuberculosis%20Classification.ipynb)
 
 ### Fine Tuning with VGG19:
-[Code: Google Colab Notebook](https://github.com/zeeshannisar/Visual-Explaination-from-Deep-Neural-Networks/blob/master/Grad-CAM%20Approach/Grad-CAM-implementation.ipynb)
+[Code: Google Colab Notebook](./Fine Tuning with VGG19/Fine tuning with Pretrained VGG19 for Tuberculosis Classification .ipynb)
 
 ### Fine Tuning with AttentionBased-VGG16:
 [Code: Google Colab Notebook](https://github.com/zeeshannisar/Visual-Explaination-from-Deep-Neural-Networks/blob/master/Grad-CAM%20Approach/Grad-CAM-implementation.ipynb)
