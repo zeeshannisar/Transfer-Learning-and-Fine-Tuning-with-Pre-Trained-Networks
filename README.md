@@ -22,7 +22,9 @@ Small dataset and different from the pre-trained model’s dataset. This is the 
 Small dataset, but similar to the pre-trained model’s dataset. I asked Master Yoda about this one he told me that ‘be the best option, Strategy 3 should’. I don’t know about you, but I don’t underestimate the Force. Accordingly, go for Strategy 3. You just need to remove the last fully-connected layer (output layer), run the pre-trained model as a fixed feature extractor, and then use the resulting features to train a new classifier.
 
 <p align="center">
-    <img src="https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks/blob/master/ReadMe%20Images/trasnfer%20learning%20flow.png" >
+    <img src="https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks/blob/master/ReadMe%20Images/trasnfer%20learning%20flow.png">
+    <br>
+    <em> Figure:1 Size-Similarity matrix (left) and decision map for fine-tuning pre-trained models (right). </em>
 </p>
 
 ## Pretrained Networks, Datasets and Code Implementations:
