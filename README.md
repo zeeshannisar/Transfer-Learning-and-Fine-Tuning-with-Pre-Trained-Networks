@@ -21,11 +21,11 @@ The original datasets are publicaly available at [Tuberculosis Dataset](https://
 [Code: Google Colab Notebook](https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks/blob/master/Fine%20Tuning%20with%20VGG16/Fine%20tuning%20with%20Pretrained%20VGG16%20for%20Tuberculosis%20Classification.ipynb)
 
 ### Fine Tuning with VGG19:
-[Code: Google Colab Notebook](./Fine Tuning with VGG19/Fine tuning with Pretrained VGG19 for Tuberculosis Classification .ipynb)
+[Code: Google Colab Notebook](https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks/blob/master/Fine%20Tuning%20with%20VGG19/Fine%20tuning%20with%20Pretrained%20VGG19%20for%20Tuberculosis%20Classification%20.ipynb)
 
 ### Fine Tuning with AttentionBased-VGG16:
-[Code: Google Colab Notebook](https://github.com/zeeshannisar/Visual-Explaination-from-Deep-Neural-Networks/blob/master/Grad-CAM%20Approach/Grad-CAM-implementation.ipynb)
+[Code: Google Colab Notebook](https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks/blob/master/Fine%20Tuning%20with%20AttentionBasedVGG16/Fine%20Tuning%20with%20Attention%20Based%20pre-Trained%20VGG16%20for%20Tuberculosis%20Classification.ipynb)
 
 ### Fine Tuning with Res-Net50:
-[Code: Google Colab Notebook](https://github.com/zeeshannisar/Visual-Explaination-from-Deep-Neural-Networks/blob/master/Grad-CAM%20Approach/Grad-CAM-implementation.ipynb)
+[Code: Google Colab Notebook](https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks/blob/master/Fine%20Tuning%20with%20Res-Net50/Fine%20Tuning%20with%20Pre-Trained%20Res-Net50%20for%20Melanoma(Skin%20Cancer)%20Detection.ipynb)
 
