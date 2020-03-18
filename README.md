@@ -2,7 +2,7 @@
 This Repository contains the implementation of Transfer-Learning and Fine-Tuning solution for classification problems. Transfer learning generally refers to a process where a model trained on one problem is used in some way on a second related problem. It is a popular method in computer vision domain because it allows us to build accurate models in a timesaving way (Rawat & Wang 2017). With Transfer learning, instead of starting the learning from scratch, we start from patterns that have already been learnt while solving a different but related problem. This way we leverage previous learnings and avoid learning from scratch.
 
 ## Strategies to Fine-Tune a Pre-Trained Model:
-When you’re repurposing a pre-trained model for your own needs, you start by removing the original classifier, then you add a new classifier that fits your purposes, and finally you have to fine-tune your model according to one of three listed strategies. These strategies are also detailed in [Figure:1](#schematic-diagram-of-transfer-learning-strategies)
+When you’re repurposing a pre-trained model for your own needs, you start by removing the original classifier, then you add a new classifier that fits your purposes, and finally you have to fine-tune your model according to one of three listed strategies. These strategies are also detailed in [Figure: 1](#schematic-diagram-of-transfer-learning-strategies)
 
 ### 1. Train the entire model:
 In this case, you use the architecture of the pre-trained model and train it according to your dataset. You’re learning the model from scratch, so you’ll need a large dataset (and a lot of computational power).
