@@ -24,7 +24,7 @@ As you remember, lower layers refer to general features (problem independent), w
 #### 3. Freeze the convolutional base.
 This case corresponds to an extreme situation of the train/freeze trade-off. The main idea is to keep the convolutional base in its original form and then use its outputs to feed the classifier. You’re using the pre-trained model as a fixed feature extraction mechanism, which can be useful if you’re short on computational power, your dataset is small, and/or pre-trained model solves a problem very similar to the one you want to solve.
 
-####                                Schematic Diagram of Transfer Learning Strategies: 
+#### Schematic Diagram of Transfer Learning Strategies: 
 <p align="center">
     <img src="https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks/blob/master/ReadMe%20Images/trasnfer%20learning%20strategies.png">
     <br>
@@ -60,7 +60,7 @@ Small dataset, but similar to the pre-trained model’s dataset. I asked Master 
 <p align="center">
     <img src="https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks/blob/master/ReadMe%20Images/trasnfer%20learning%20flow.png">
     <br>
-    <em> Figure:2 Size-Similarity matrix (left) and decision map for fine-tuning pre-trained models (right). </em>
+    <em> Figure: 2 Size-Similarity matrix (left) and decision map for fine-tuning pre-trained models (right). </em>
 </p>
 
 ### Datasets and Code Implementations:
