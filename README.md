@@ -78,7 +78,7 @@ The original datasets are publicaly available at [Tuberculosis Dataset](https://
 #### Implementations:
 
 ##### Transfer Learning with VGG16:
-[Code: Google Colab Notebook](https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks/blob/master/Fine%20Tuning%20with%20VGG16/Fine%20tuning%20with%20Pretrained%20VGG16%20for%20Tuberculosis%20Classification.ipynb)
+[Code: Google Colab Notebook]("./Transfer Learning with AttentionBasedVGG16/Fine Tuning with Attention Based pre-Trained VGG16 for Tuberculosis Classification.ipynb")
 
 ##### Transfer Learning with VGG19:
 [Code: Google Colab Notebook](https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks/blob/master/Fine%20Tuning%20with%20VGG19/Fine%20tuning%20with%20Pretrained%20VGG19%20for%20Tuberculosis%20Classification%20.ipynb)
