@@ -1,13 +1,33 @@
 # Transfer Learning and Fine Tuning in Keras with State of the Art Pre Trained Networks:
 This Repository contains the implementation of Transfer-Learning and Fine-Tuning solution for classification problems. Transfer learning generally refers to a process where a model trained on one problem is used in some way on a second related problem. It is a popular method in computer vision domain because it allows us to build accurate models in a timesaving way (Rawat & Wang 2017). With Transfer learning, instead of starting the learning from scratch, we start from patterns that have already been learnt while solving a different but related problem. This way we leverage previous learnings and avoid learning from scratch.
 
+## Repurposing a Pre-Trained model:
+When you’re repurposing a pre-trained model for your own needs, you start by removing the original classifier, then you add a new classifier that fits your purposes, and finally you have to fine-tune your model according to one of three strategies:
+
+### 1. Train the entire model:
+In this case, you use the architecture of the pre-trained model and train it according to your dataset. You’re learning the model from scratch, so you’ll need a large dataset (and a lot of computational power).
+
+### 2. Train some layers and leave the others frozen:
+As you remember, lower layers refer to general features (problem independent), while higher layers refer to specific features (problem dependent). Here, we play with that dichotomy by choosing how much we want to adjust the weights of the network (a frozen layer does not change during training). Usually, if you’ve a small dataset and a large number of parameters, you’ll leave more layers frozen to avoid overfitting. By contrast, if the dataset is large and the number of parameters is small, you can improve your model by training more layers to the new task since overfitting is not an issue.
+
+### Freeze the convolutional base.
+This case corresponds to an extreme situation of the train/freeze trade-off. The main idea is to keep the convolutional base in its original form and then use its outputs to feed the classifier. You’re using the pre-trained model as a fixed feature extraction mechanism, which can be useful if you’re short on computational power, your dataset is small, and/or pre-trained model solves a problem very similar to the one you want to solve.
+
+<p align="center">
+    <img src="https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks/blob/master/ReadMe%20Images/trasnfer%20learning%20strategies.png">
+    <br>
+    <em> Figure:1 Transfer Learning Strategies to follow. </em>
+</p>
+
+Unlike Strategy 3, whose application is straightforward, Strategy 1 and Strategy 2 require you to be careful with the learning rate used in the convolutional part. The learning rate is a hyper-parameter that controls how much you adjust the weights of your network. When you’re using a pre-trained model based on CNN, it’s smart to use a small learning rate because high learning rates increase the risk of losing previous knowledge. Assuming that the pre-trained model has been well trained, which is a fair assumption, keeping a small learning rate will ensure that you don’t distort the CNN weights too soon and too much.
+
 ## Transfer Learning Process Explained:
 
 ### 1. Select a pre-trained model:
 From the wide range of pre-trained models that are available, you pick one that looks suitable for your problem. For example, if you’re using Keras, you immediately have access to a set of models, such as VGG (Simonyan & Zisserman 2014), InceptionV3 (Szegedy et al. 2015), and ResNet5 (He et al. 2015). [Here](https://keras.io/applications/) you can see all the models available on Keras.
 
 ### 2. Classify your problem according to the Size-Similarity Matrix:
-In [Figure: 1]() you have ‘The Matrix’ that controls your choices. This matrix classifies your computer vision problem considering the size of your dataset and its similarity to the dataset in which your pre-trained model was trained. As a rule of thumb, consider that your dataset is small if it has less than 1000 images per class. Regarding dataset similarity, let common sense prevail. For example, if your task is to identify cats and dogs, ImageNet would be a similar dataset because it has images of cats and dogs. However, if your task is to identify cancer cells, ImageNet can’t be considered a similar dataset.
+In [Figure: 2]() you have ‘The Matrix’ that controls your choices. This matrix classifies your computer vision problem considering the size of your dataset and its similarity to the dataset in which your pre-trained model was trained. As a rule of thumb, consider that your dataset is small if it has less than 1000 images per class. Regarding dataset similarity, let common sense prevail. For example, if your task is to identify cats and dogs, ImageNet would be a similar dataset because it has images of cats and dogs. However, if your task is to identify cancer cells, ImageNet can’t be considered a similar dataset.
 
 ### 3. Fine-tune your model:
 Here you can use the Size-Similarity Matrix to guide your choice and then refer to the three options we mentioned before about repurposing a pre-trained model. Figure 4 provides a visual summary of the text that follows.
