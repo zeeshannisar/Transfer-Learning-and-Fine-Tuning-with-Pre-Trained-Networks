@@ -1,8 +1,6 @@
 # Transfer Learning and Fine Tuning in Keras with State of the Art Pre Trained Networks:
 This Repository contains the detailed description and implementation of Transfer-Learning and Fine-Tuning solution for Image Classification Problems in Computer Vision domain.
 
-
-
 ## Table of Contents
    + [Transfer Learning](#transfer-learning)
    + [Transfer Learning Strategies](#transfer-learning-strategies)
