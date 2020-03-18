@@ -7,7 +7,7 @@ This Repository contains the detailed description and implementation of Transfer
    + [Transfer Learning](#transfer-learning)
    + [Transfer Learning Strategies](#transfer-learning-strategies)
    + [Transfer Learning Process](#transfer-learning-process)
-   + [Pretrained Networks, Datasets and Code Implementations](pretrained-networks,-datasets-and-code-implementations)
+   + [Pretrained Networks, Datasets and Code Implementations](#pretrained-networks,-datasets-and-code-implementations)
 
 ### Transfer Learning:
 Transfer learning generally refers to a process where a model trained on one problem is used in some way on a second related problem. It is a popular method in computer vision domain because it allows us to build accurate models in a timesaving way (Rawat & Wang 2017). With Transfer learning, instead of starting the learning from scratch, we start from patterns that have already been learnt while solving a different but related problem. This way we leverage previous learnings and avoid learning from scratch.
