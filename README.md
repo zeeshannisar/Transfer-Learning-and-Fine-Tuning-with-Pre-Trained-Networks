@@ -35,7 +35,7 @@ In [Figure: 2](#size-similarity-matrix-and-decision-map) we have **The Size-Simi
 <p align="center">
     <img src="https://github.com/zeeshannisar/Transfer-Learning-and-Fine-Tuning-with-Pre-Trained-Networks/blob/master/ReadMe%20Images/trasnfer%20learning%20flow.png">
     <br>
-    <em> Figure: 2 Size-Similarity matrix (left) and Decision-Map to Fine-Tune Pre-trained Models (right). </em>
+    <em> Figure: 2 Size-Similarity matrix (left) and Decision-Map (right) to Fine-Tune Pre-trained Models . </em>
 </p>
 
 ### Datasets and Code Implementations:
