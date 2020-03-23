@@ -1,5 +1,5 @@
 # Transfer Learning and Fine Tuning in Keras with State of the Art Pre Trained Networks:
-This Repository contains the detailed description and implementation of Transfer-Learning and Fine-Tuning solution for Image Classification Problems in Computer Vision domain.
+This Repository contains the detailed description and implementation of Transfer-Learning and Fine-Tuning solution for Image Classification Problems in Computer Vision domain. For a detailed theoratical guide one can visit [Here](https://towardsdatascience.com/transfer-learning-from-pre-trained-models-f2393f124751) 
 
 ## Table of Contents
    + [Transfer Learning](#transfer-learning)
@@ -24,12 +24,12 @@ When we’re reusing a pre-trained model for our own needs, we start by removing
 #### 1. Select a pre-trained model:
 From the wide range of available pre-trained models at [Here](https://keras.io/applications/), we have to pick one that looks suitable for our problem.
 #### 2. Classify the problem and Fine-Tune the Model according to the Size-Similarity Matrix:
-In [Figure: 2](#size-similarity-matrix-and-decision-map) we have **The Size-Similarity Matrix** that controls our choices. This matrix classifies the Computer-Vision problem considering the size of the dataset and its similarity to the dataset in which pre-trained model is to be trained.
+In [Figure: 2](#size-similarity-matrix-and-decision-map) we have **The Size-Similarity Matrix** that controls our choice to train the model. This matrix classifies the Computer-Vision problem considering the size of the dataset and its similarity to the dataset in which pre-trained model is to be trained.
 
-   + Large data and diff from pretrained dataset (train entire model)
-   + Large data and same as pretrained dataset (train some layers and freeze others)
-   + Small data and diff from pretrained dataset (train some layers and freeze others)
-   + Small data and same as pretrained dataset (freeze the conv base)  
+   + Large data but different from Pretrained data (Train the entire model)
+   + Large data but same as Pretrained data (Train some layers and freeze others)
+   + Small data but different from Pretrained data (Train some layers and freeze others)
+   + Small data but same as Pretrained data (Freeze the convolutional base)  
 
 #### Size-Similarity Matrix and Decision Map:
 <p align="center">
