@@ -47,7 +47,7 @@ I have used the following pretrained networks for Transfer-Learning for Tubercul
 + [Fine Tuning with Res-Net50](#fine-tuning-with-resnet-50)
 
 #### Datasets:
-The original datasets are publicaly available at [Tuberculosis Dataset](https://lhncbc.nlm.nih.gov/publication/pub9931) and [Skin Cancer Datset](https://www.kaggle.com/drscarlat/melanoma) and can be also be downloaded from (here)[https://drive.google.com/drive/u/1/folders/1Ls5MMm3hgJZje2TrrrDMba_4C3ntUeKS] to get the same accuracy results. 
+The original datasets are publicaly available at [Tuberculosis Dataset](https://lhncbc.nlm.nih.gov/publication/pub9931) and [Skin Cancer Datset](https://www.kaggle.com/drscarlat/melanoma) and can be also be downloaded at [Here](https://drive.google.com/drive/u/1/folders/1Ls5MMm3hgJZje2TrrrDMba_4C3ntUeKS) to get the same accuracy results. 
 
 
 #### Implementations:
